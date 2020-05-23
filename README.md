@@ -42,11 +42,12 @@ npm run dev
 ```
 
 6. access app on localhost:2959/
-   | route | METHOD | functionality |
-   |--------------|--------|-------------------------------------------------------------------------------------------------------|
-   | / | GET | returns a form to upload a file |
-   | /collections | GET | returns all collection names in the database. |
-   | /collections | POST | accepts a file with key as "file". returns success of failure response. |
+
+   | route        | METHOD | functionality                                                                                         |
+   | ------------ | ------ | ----------------------------------------------------------------------------------------------------- |
+   | /            | GET    | returns a form to upload a file                                                                       |
+   | /collections | GET    | returns all collection names in the database.                                                         |
+   | /collections | POST   | accepts a file with key as "file". returns success of failure response.                               |
    | /collections | DELETE | accepts collection name and deleted the collection from database. returns success or failure response |
 
 ## License
