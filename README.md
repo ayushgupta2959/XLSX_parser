@@ -12,30 +12,27 @@ Latest version of Nodejs and npm package
 
 2. Change directory to the repo
 
-````bash
+```bash
 cd 'XLSX Parser'
+```
 
 3. Use following command to install required dependencies
 
 ```bash
   npm install
-````
+```
 
 4. create .env file and add variable DATABASE_URI. Example:
    use locally hosted mongodb server
 
 ```
-
 DATABASE_URI=mongodb://localhost:1234/myproject
-
 ```
 
 or, use mongodb atlas
 
 ```
-
 DATABASE_URI=mongodb+srv://username:the_password@something_here/dbname
-
 ```
 
 5. start the server using
